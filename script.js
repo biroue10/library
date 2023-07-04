@@ -18,6 +18,9 @@ button.addEventListener("click", (event) => {
   const book = new Book(titre, auteur, page);
   if (myLibrary.push(book)) {
     const div1 = document.createElement("div");
+    const delete_book = document.createElement('div')
+    delete_book.classList.add('delete_book')
+    div1.append(delete_book)
     div1.classList.add("grid-element");
     table.append(div1);
   }

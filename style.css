@@ -72,6 +72,10 @@ tr {
 .grid-element {
   border-radius: 10px;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 10px;
 }
 nav {
   display: flex;
@@ -109,4 +113,10 @@ nav {
   -webkit-text-fill-color: transparent; 
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+}
+.delete_book{
+  width: 80%;
+  height: 40px;
+  background-color: red;
+  border-radius: 5px;
 }
