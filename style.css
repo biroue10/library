@@ -74,7 +74,7 @@ tr {
   background-color: white;
   display: flex;
   justify-content: flex-end;
-  align-items:center;
+  align-items: center;
   padding-bottom: 10px;
   flex-direction: column;
 }
@@ -115,7 +115,8 @@ nav {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
-.delete_book, .read{
+.delete_book,
+.read {
   width: 80%;
   height: 40px;
   background-color: gray;
@@ -129,7 +130,7 @@ nav {
   font-size: 1.5rem;
   cursor: pointer;
 }
-input[type="submit"]{
+input[type="submit"] {
   margin-top: 10px;
   width: 30%;
   font-weight: 900;
@@ -137,10 +138,10 @@ input[type="submit"]{
   cursor: pointer;
   border: none;
 }
-.read{
+.read {
   margin-top: 10px;
 }
-#submit{
+#submit {
   background-color: black;
   color: white;
 }
