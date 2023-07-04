@@ -33,9 +33,7 @@ button.addEventListener("click", (event) => {
     element.value = "";
   });
 });
-
 //delete book from our bookstore
-
 button.addEventListener('click',(e)=>{
 e.preventDefault()
 const supprimer2 = document.querySelectorAll('.delete_book')
