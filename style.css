@@ -14,10 +14,11 @@ label {
   display: block;
   text-transform: uppercase;
   font-weight: 900;
+  color: white;
 }
 .container {
   background-color: gray;
-  width: 40%;
+  width: 60%;
   margin: auto;
   margin-top: 1%;
   padding-top: 1%;
@@ -78,7 +79,7 @@ nav {
   align-items: center;
   background-color: gray;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
 }
 .class-button {
   display: flex;
