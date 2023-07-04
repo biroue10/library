@@ -73,9 +73,10 @@ tr {
   border-radius: 10px;
   background-color: white;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  justify-content: flex-end;
+  align-items:center;
   padding-bottom: 10px;
+  flex-direction: column;
 }
 nav {
   display: flex;
@@ -114,7 +115,7 @@ nav {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
-.delete_book{
+.delete_book, .read{
   width: 80%;
   height: 40px;
   background-color: gray;
@@ -134,4 +135,11 @@ input[type="submit"]{
   font-weight: 900;
   text-transform: uppercase;
   cursor: pointer;
+}
+.read{
+  margin-top: 10px;
+}
+#submit{
+  background-color: black;
+  color: white;
 }
