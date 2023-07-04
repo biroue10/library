@@ -68,7 +68,6 @@ tr {
 .grid-element {
   border-radius: 10px;
   background-color: white;
-  box-shadow: 2px 2px 5px red;
 }
 nav {
   display: flex;
@@ -94,9 +93,14 @@ nav {
   border-radius: 5px;
 }
 .logo {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 900;
   text-transform: uppercase;
   color: white;
   font-style: italic;
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
