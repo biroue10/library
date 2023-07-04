@@ -135,6 +135,7 @@ input[type="submit"]{
   font-weight: 900;
   text-transform: uppercase;
   cursor: pointer;
+  border: none;
 }
 .read{
   margin-top: 10px;
