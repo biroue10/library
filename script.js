@@ -30,3 +30,12 @@ button.addEventListener("click", (event) => {
     element.value = "";
   });
 });
+
+//delete book from our bookstore
+const delete_book_button = document.getElementsByClassName('delete_book')
+button.addEventListener('click',()=>{
+  Array.from(delete_book_button).forEach(function(element){
+    console.log(element)
+  })
+  
+})
