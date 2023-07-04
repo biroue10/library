@@ -20,6 +20,7 @@ button.addEventListener("click", (event) => {
     const div1 = document.createElement("div");
     const delete_book = document.createElement('div')
     delete_book.classList.add('delete_book')
+    delete_book.textContent="remove"
     div1.append(delete_book)
     div1.classList.add("grid-element");
     table.append(div1);
