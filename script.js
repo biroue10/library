@@ -42,5 +42,7 @@ supprimer2.forEach(function(element){
     element.parentNode.remove()
   })
 })
+const unread = document.getElementsByClassName('grid-element')
+console.log(unread)
 })
-//modify read to unread
+
