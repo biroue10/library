@@ -27,6 +27,16 @@ button.addEventListener("click", (event) => {
     div1.append(delete_book,read)
     div1.classList.add("grid-element");
     table.append(div1);
+    console.log(div1)
+    button.addEventListener('click',(e)=>{
+      e.preventDefault()
+      const supprimer2 = document.querySelectorAll('.delete_book')
+      supprimer2.forEach(function(element){
+        element.addEventListener('click',()=>{
+          element.parentNode.remove()
+        })
+      })
+      })
   }
   const fields = document.querySelectorAll("input");
   fields.forEach(function (element) {
@@ -34,15 +44,4 @@ button.addEventListener("click", (event) => {
   });
 });
 //delete book from our bookstore
-button.addEventListener('click',(e)=>{
-e.preventDefault()
-const supprimer2 = document.querySelectorAll('.delete_book')
-supprimer2.forEach(function(element){
-  element.addEventListener('click',()=>{
-    element.parentNode.remove()
-  })
-})
-const unread = document.getElementsByClassName('grid-element')
-console.log(unread)
-})
 
