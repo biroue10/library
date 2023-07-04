@@ -12,6 +12,8 @@ form {
 }
 label {
   display: block;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 .container {
   background-color: gray;
@@ -52,6 +54,7 @@ body {
   opacity: 1;
   cursor: pointer;
   font-weight: 900;
+  text-transform: uppercase;
 }
 input {
   width: 90%;
@@ -86,11 +89,13 @@ nav {
 .class-button button {
   border: none;
   color: black;
-  padding: 10px;
   width: 70px;
   cursor: pointer;
-  font-size: 1rem;
-  border-radius: 5px;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 .logo {
   font-size: 2.5rem;
