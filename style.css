@@ -14,7 +14,7 @@ label {
   display: block;
 }
 .container {
-  background-color: antiquewhite;
+  background-color: gray;
   width: 40%;
   margin: auto;
   margin-top: 1%;
@@ -25,7 +25,7 @@ label {
 .table {
   margin-top: 150px;
   display: grid;
-  grid-template-columns: 250px 250px 250px;
+  grid-template-columns: 250px 250px 250px 250px;
   grid-template-rows: 250px;
   grid-auto-rows: 250px;
   row-gap: 20px;
