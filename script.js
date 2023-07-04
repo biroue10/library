@@ -17,9 +17,9 @@ button.addEventListener("click", (event) => {
   const page = document.getElementById("page").value;
   const book = new Book(titre, auteur, page);
   if (myLibrary.push(book)) {
-    const div1 = document.createElement('div')
-    div1.classList.add('grid-element')
-    table.append(div1)
+    const div1 = document.createElement("div");
+    div1.classList.add("grid-element");
+    table.append(div1);
   }
   const fields = document.querySelectorAll("input");
   fields.forEach(function (element) {
