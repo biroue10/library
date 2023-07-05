@@ -27,7 +27,6 @@ button.addEventListener("click", (event) => {
     div1.append(delete_book, read);
     div1.classList.add("grid-element");
     table.append(div1);
-    console.log(div1);
     button.addEventListener("click", (e) => {
       e.preventDefault();
       const supprimer2 = document.querySelectorAll(".delete_book");
@@ -38,7 +37,7 @@ button.addEventListener("click", (event) => {
       });
     });
   }
-  const fields = document.querySelectorAll("input");
+  const fields = document.querySelectorAll("#titre #auteur #page");
   fields.forEach(function (element) {
     element.value = "";
   });
