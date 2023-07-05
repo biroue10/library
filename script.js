@@ -30,16 +30,30 @@ button.addEventListener("click", (event) => {
     button.addEventListener("click", (e) => {
       e.preventDefault();
       const supprimer2 = document.querySelectorAll(".delete_book");
+      const read = document.querySelectorAll(".read");
       supprimer2.forEach(function (element) {
         element.addEventListener("click", () => {
           element.parentNode.remove();
         });
       });
+      read.forEach(function(element){
+        element.addEventListener('click',(element)=>{
+          if(element.target.classList.contains('read')){
+            element.target.classList.remove('read')
+            element.target.classList.add('unread')
+          }
+          else if(element.target.classList.contains('unread')){
+            element.target.classList.remove('unread')
+            element.target.classList.add('read')
+          }
+        })
+      })
     });
   }
+  //make all fields empty after hitting submit button
   const fields = document.querySelectorAll("#titre #auteur #page");
   fields.forEach(function (element) {
     element.value = "";
   });
 });
-//delete book from our bookstore
+

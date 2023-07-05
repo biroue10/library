@@ -145,3 +145,18 @@ input[type="submit"] {
   background-color: black;
   color: white;
 }
+.unread {
+  width: 80%;
+  height: 40px;
+  background-color: greenyellow;
+  border-radius: 5px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
