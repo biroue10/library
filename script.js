@@ -27,14 +27,15 @@ button.addEventListener("click", (event) => {
     auteur_container.innerHTML = `Auteur: ${auteur}`;
     const page_container = document.createElement("div");
     page_container.innerHTML = `Page: ${page}`;
+    const info_container = document.createElement('div')
+    info_container.classList.add('info_container')
+    info_container.append(titre_containair,auteur_container,page_container)
     read.classList.add("read");
     read.textContent = "Read";
     delete_book.classList.add("delete_book");
     delete_book.textContent = "remove";
     div1.append(
-      titre_containair,
-      auteur_container,
-      page_container,
+      info_container,
       delete_book,
       read
     );
