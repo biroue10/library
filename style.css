@@ -170,4 +170,13 @@ input[type="submit"] {
   color: white;
   margin-bottom: 10px;
   width: 80%;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 5px;
+text-transform: uppercase;
+font-weight: 900;
+font-size: 1rem;
+}
+.info_container div{
+  margin: 5px;
 }
