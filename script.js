@@ -53,17 +53,6 @@ button.addEventListener("click", (event) => {
           element.parentNode.remove();
         });
       });
-      read.forEach(function (element) {
-        element.addEventListener("click", (element) => {
-          if (element.target.classList.contains("read")) {
-            element.target.classList.remove("read");
-            element.target.classList.add("unread");
-          } else if (element.target.classList.contains("unread")) {
-            element.target.classList.remove("unread");
-            element.target.classList.add("read");
-          }
-        });
-      });
     });
   }
 });
