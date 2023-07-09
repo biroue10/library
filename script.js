@@ -22,11 +22,11 @@ button.addEventListener("click", (event) => {
     const delete_book = document.createElement("div");
     const read = document.createElement("div");
     const titre_containair = document.createElement("div");
-    titre_containair.innerHTML = `Titre: ${titre}`;
+    titre_containair.innerHTML = `<u>Titre:</u> ${titre}`;
     const auteur_container = document.createElement("div");
-    auteur_container.innerHTML = `Auteur: ${auteur}`;
+    auteur_container.innerHTML = `<u>Auteur:</u> ${auteur}`;
     const page_container = document.createElement("div");
-    page_container.innerHTML = `Page: ${page} pages`;
+    page_container.innerHTML = `<u>Pages:</u> ${page} pages`;
     const info_container = document.createElement('div')
     info_container.classList.add('info_container')
     info_container.append(titre_containair,auteur_container,page_container)
