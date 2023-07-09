@@ -26,7 +26,7 @@ button.addEventListener("click", (event) => {
     const auteur_container = document.createElement("div");
     auteur_container.innerHTML = `Auteur: ${auteur}`;
     const page_container = document.createElement("div");
-    page_container.innerHTML = `Page: ${page}`;
+    page_container.innerHTML = `Page: ${page} pages`;
     const info_container = document.createElement('div')
     info_container.classList.add('info_container')
     info_container.append(titre_containair,auteur_container,page_container)
