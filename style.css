@@ -17,13 +17,14 @@ label {
   color: white;
 }
 .container {
-  background-color: gray;
+  background-color: rgba(99, 97, 96,0.5) ;
   width: 60%;
   margin: auto;
   margin-top: 1%;
   padding-top: 1%;
   margin-bottom: 1%;
   padding-bottom: 1%;
+
 }
 .table {
   margin-top: 150px;
