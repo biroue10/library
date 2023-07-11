@@ -164,7 +164,7 @@ input[type="submit"] {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background-color: #af4261;
   color: white;
   margin-bottom: 10px;
@@ -174,7 +174,7 @@ padding-bottom: 20px;
 border-radius: 5px;
 text-transform: uppercase;
 font-weight: 900;
-font-size: 1rem;
+font-size: 0.7rem;
 }
 .info_container div{
   margin: 5px;
