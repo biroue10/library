@@ -185,3 +185,7 @@ html{
  background-size: cover;
  height: 100%;
 }
+input:focus{
+  border: none;
+  outline: none;
+}
